@@ -1,6 +1,10 @@
 {
   "version": 2,
   "name": "medlens",
-  "framework": null,
-  "cleanUrls": true
+  "builds": [
+    {
+      "src": "**/*",
+      "use": "@vercel/static"
+    }
+  ]
 }
