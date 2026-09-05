@@ -1,14 +1,3 @@
-# Vercel deployment artifacts
 .vercel
+node_modules
 *.log
-
-# OS & Editor files
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
-
-# Local server temp
-node_modules/
-dist/
-build/

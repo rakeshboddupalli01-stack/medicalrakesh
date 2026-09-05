@@ -1,5 +1,5 @@
 # Lightweight PowerShell HTTP Static File Server
-param([int]$Port = 8080)
+param([int]$Port = 8085)
 
 $listener = New-Object System.Net.HttpListener
 $listener.Prefixes.Add("http://localhost:$Port/")
